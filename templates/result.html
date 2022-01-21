@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+        <title>Depression Detector</title>
+<!--        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">-->
+		<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+
+	</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+    		body{
+    			background: #87CEFA;
+<!--    			background: #FFB6C1;-->
+<!--    			background: #FF69B4;-->
+    		}
+			.head{
+				text-align: center;
+				font-family: "Lucida Console", "Courier New", monospace;
+				background-color: 	#000000;
+			}
+			.results{
+				text-align: center;
+				margin-top: 80px
+			}
+			.safe{
+				color: green;
+			}
+			.danger{
+				color: red;
+			}
+	</style>
+  </head>
+  <body>
+    <!-- Website Title -->
+    	<header class="head justify-content-center">
+			<div class="sabd container">
+				<div class="row">
+					<div class="col text-info">
+						<h5>Machine Learning App with Flask</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col text-info">
+						<h1>Depression Detector For Tweets</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+
+	<!-- Result -->
+		<div class="results">
+			{% if prediction == 0 %}
+				<h1>Prediction: <span class='safe'>Positive Tweet.</span></h1>
+			{% endif %}
+			{% if prediction == 1 %}
+				<h1>Prediction: <span class='danger'>Depressed Tweet.</span></h1>
+			{% endif %}
+
+		</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
