@@ -20,7 +20,7 @@
 `python app.py`
 
 ### Web-App
-![alt text](https://github.com/Jvdboss7/Depression/blob/master/Screenshot 2022-01-22 025744.png)
+![alt text](https://github.com/yuvraj123-verma/Depression-detection-using-NLP/blob/main/Screenshot%202022-01-22%20025744.png)
 
 ### Predictions
 
