@@ -20,7 +20,7 @@
 `python app.py`
 
 ### Web-App
-![alt text](https://github.com/Jvdboss7/Depression/blob/master/Capture11.JPG)
+![alt text](https://github.com/Jvdboss7/Depression/blob/master/Screenshot 2022-01-22 025744.png)
 
 ### Predictions
 
