@@ -12,7 +12,7 @@
 
 - Clone this repository
 - Create a new environment 
-`conda create -n newenv python==3.6`
+`conda create -n newenv python==3.9`
 - Open any IDE
 - Then install the requirements.txt file 
 `pip install -r requirements.txt`
@@ -24,9 +24,9 @@
 
 ### Predictions
 
-![alt text](https://github.com/Jvdboss7/Depression/blob/master/Capture12.jpg)
+![alt text](https://github.com/yuvraj123-verma/Depression-detection-using-NLP/blob/main/Screenshot%202022-01-22%20025837.png)
 
-![alt text](https://github.com/Jvdboss7/Depression/blob/master/Capture13.JPG)
+![alt text](https://github.com/yuvraj123-verma/Depression-detection-using-NLP/blob/main/Screenshot%202022-01-22%20030920.png)
 
 ### Motivation and purpose of the project 
 - As we know Depression and mental health is a very common problem in this generation.  Lot of people are facing this issue. 
